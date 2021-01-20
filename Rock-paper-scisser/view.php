@@ -13,5 +13,11 @@
 <button class="paper" name="paper">PAPER</button>
 <button class="scissors" name="scissors">SCISSORS</button>
 </form>
+
+<p><?php echo $game->result ?> </p>
+<p><?php echo $game-> scoreComputer ?> </p>
+<p><?php echo $game-> scorePlayer ?> </p>
+<p><?php echo $game-> finalMessage ?> </p>
+
 </body>
 </html>
