@@ -85,6 +85,9 @@ class RockPaperScissors
 
     public function draw () {
         $this->result ="It's a draw, the computer has also chosen the $this->computerMove ";
+        $this->scoreComputer;
+        $this->scorePlayer;
+
     }
 
     public function winWholeGame () {
