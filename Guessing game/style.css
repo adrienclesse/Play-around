@@ -1,0 +1,35 @@
+body{
+    text-align:center;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+h1, h2, p{
+    color:white;
+}
+
+.game{
+    display: block;
+    text-align:center;
+    margin-top:  140px;
+
+   
+    
+}
+form{
+    display:inline-block;
+    padding-top:20px;
+    border: 2px solid black;
+    width: 400px;
+    background-color: rgb(114, 107, 107,0.7);
+}
+
+input{
+    background-color:white;
+}
+
+button{
+    background-color:white;
+    cursor: pointer;
+}
