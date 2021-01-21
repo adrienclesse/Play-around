@@ -8,6 +8,8 @@ class RockPaperScissors
     public $scorePlayer=0;
     public $scoreComputer=0;
     public $finalMessage;
+    public $imageSrc;
+
 
     public function __construct()
     {
@@ -65,9 +67,15 @@ class RockPaperScissors
 
     public function generateMove () {
         $this->computerNumber= rand(1,3);
-        if ($this->computerNumber==1){$this->computerMove="rock";}
-        else if ($this->computerNumber==2){$this->computerMove="paper";}
-        else if ($this->computerNumber==3){$this->computerMove="scissors";}
+        if ($this->computerNumber==1){$this->imageSrc="images/rock.png";$this->computerMove="rock"; }
+        else if ($this->computerNumber==2){
+            $this->imageSrc="images/paper.png"; 
+            $this->computerMove="paper" ;
+          }
+        else if ($this->computerNumber==3){
+            $this->imageSrc="images/scissors.png"; 
+            $this->computerMove="scissors" ;
+          }
     }
 
     public function youWin () {

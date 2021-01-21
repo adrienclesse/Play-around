@@ -1,0 +1,30 @@
+body{
+    background-color:silver;
+}
+
+img {
+    width:10rem;
+    cursor: pointer;
+    height: 10rem;
+}
+
+.computer{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.game{
+    width: 560px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.buttons{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+p, h3{
+    text-align: center;
+}
